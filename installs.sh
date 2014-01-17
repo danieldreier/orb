@@ -10,6 +10,7 @@ install_ruby() {
 }
 
 order install_rubygems after install_ruby
+order install_rubygems after install_rubygems
 install_rubygems() {
   echo "I'm installing rubygems!"
 }
